@@ -15,8 +15,8 @@ public class RadioStation {
     }
 
     public void seekNewFrequency() {
-        if (frequency >= (float) 100) frequency += 0.5f;
-        else frequency -= 0.7f;
+        if (frequency >= (float) 100 && frequency + 0.5f <= 999.9f) frequency += 0.5f;
+        else if (frequency < (float) 100 && frequency - 0.7f >= 0.0f) frequency -= 0.7f;
     }
 
     public float getFrequency() {
