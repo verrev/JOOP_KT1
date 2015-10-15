@@ -29,25 +29,37 @@ public class Tests {
 
     @Test
     public void testSeeking() {
-        for (RadioStation r : stations) System.out.println(r);
-        System.out.println("");
+        List<Float> freqs = new ArrayList<>();
+        for (RadioStation r : stations) freqs.add(r.getFrequency());
         for (RadioStation r : stations) r.seekNewFrequency();
-        for (RadioStation r : stations) System.out.println(r);
+        for (int i = 0; i < stations.size(); ++i) {
+            float prevFreq = freqs.get(i);
+            if (prevFreq > 0 && prevFreq < 999.9f) {
+                if (prevFreq < 100)
+                    Assert.assertTrue(stations.get(i).getFrequency() < prevFreq);
+                else
+                    Assert.assertTrue(stations.get(i).getFrequency() > prevFreq);
+            }
+        }
     }
 
     @Test
-    public void testCombinedActions() {
-        for (RadioStation r : stations) System.out.println(r);
-        RadioStationController.setRadioStationsToEmergencyMode(stations);
-        for (RadioStation r : stations) System.out.println(r);
-        RadioStationController.setRadioStationsToNormalMode(stations);
+    public void testCombinedActionsOnStringRepresentation() {
+        for (RadioStation r : stations) Assert.assertFalse(r.toString()
+                .contains("It is currently unable to play music due to an antenna problem."));
+        RadioStationController.setRadioStationsToEmergencyMode();
+        for (RadioStation r : stations) Assert.assertTrue(r.toString()
+                .contains("It is currently unable to play music due to an antenna problem."));
+        RadioStationController.setRadioStationsToNormalMode();
+        for (RadioStation r : stations) Assert.assertFalse(r.toString()
+                .contains("It is currently unable to play music due to an antenna problem."));
     }
 
     @Test
     public void testEmergencyMode() {
-        RadioStationController.setRadioStationsToEmergencyMode(stations);
+        RadioStationController.setRadioStationsToEmergencyMode();
         for (RadioStation r : stations) Assert.assertTrue(r.isInEmergencyMode());
-        RadioStationController.setRadioStationsToNormalMode(stations);
+        RadioStationController.setRadioStationsToNormalMode();
         for (RadioStation r : stations) Assert.assertFalse(r.isInEmergencyMode());
     }
 }

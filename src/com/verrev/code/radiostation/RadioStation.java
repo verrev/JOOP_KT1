@@ -6,12 +6,11 @@ package com.verrev.code.radiostation;
 public class RadioStation {
     protected String name;
     protected float frequency;
-    protected boolean isInEmergencyMode;
+    protected static boolean isInEmergencyMode = false;
 
     public RadioStation(String name, float frequency) {
         this.name = name;
         this.frequency = frequency;
-        this.isInEmergencyMode = false;
     }
 
     public void seekNewFrequency() {
@@ -27,8 +26,8 @@ public class RadioStation {
         return isInEmergencyMode;
     }
 
-    public void setIsInEmergencyMode(boolean isInEmergencyMode) {
-        this.isInEmergencyMode = isInEmergencyMode;
+    public static void setIsInEmergencyMode(boolean isInEmergencyMode) {
+        RadioStation.isInEmergencyMode = isInEmergencyMode;
     }
 
     /*
