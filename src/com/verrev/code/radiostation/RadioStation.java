@@ -31,7 +31,9 @@ public class RadioStation {
         this.isInEmergencyMode = isInEmergencyMode;
     }
 
-
+    /*
+        Allows us to 'print' an instance of this class conveniently.
+     */
     @Override
     public String toString() {
         if (!isInEmergencyMode)

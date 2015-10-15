@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RadioStation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RadioStation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/verrev/code/radiostation/RadioStation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1199324">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding>
                 <element signature="e#548#549#0" expanded="true" />
                 <element signature="e#580#581#0" expanded="true" />
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImprovedRadioStation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ImprovedRadioStation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/verrev/code/radiostation/ImprovedRadioStation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.14358108">
+              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
               <folding>
                 <element signature="e#454#455#0" expanded="true" />
                 <element signature="e#520#521#0" expanded="true" />
@@ -69,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/verrev/code/radiostation/RadioStationController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -94,10 +94,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/verrev/Tests.java" />
         <option value="$PROJECT_DIR$/src/com/verrev/code/RadioStation.java" />
-        <option value="$PROJECT_DIR$/src/com/verrev/code/radiostation/RadioStationController.java" />
-        <option value="$PROJECT_DIR$/src/com/verrev/code/radiostation/RadioStation.java" />
         <option value="$PROJECT_DIR$/src/com/verrev/code/radiostation/ImprovedRadioStation.java" />
         <option value="$PROJECT_DIR$/src/com/verrev/tests/Tests.java" />
+        <option value="$PROJECT_DIR$/src/com/verrev/code/radiostation/RadioStationController.java" />
+        <option value="$PROJECT_DIR$/src/com/verrev/code/radiostation/RadioStation.java" />
       </list>
     </option>
   </component>
@@ -502,12 +502,12 @@
       <created>1444885260115</created>
       <option name="number" value="Default" />
       <updated>1444885260115</updated>
-      <workItem from="1444885262923" duration="2454000" />
+      <workItem from="1444885262923" duration="3103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2454000" />
+    <option name="totallyTimeSpent" value="3103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -561,29 +561,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/verrev/code/radiostation/ImprovedRadioStation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/verrev/code/radiostation/RadioStationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/verrev/code/radiostation/RadioStation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1199324">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding>
             <element signature="e#548#549#0" expanded="true" />
             <element signature="e#580#581#0" expanded="true" />
@@ -591,6 +580,17 @@
             <element signature="e#662#663#0" expanded="true" />
             <element signature="e#729#730#0" expanded="true" />
             <element signature="e#787#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/verrev/code/radiostation/ImprovedRadioStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14358108">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding>
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
           </folding>
         </state>
       </provider>
